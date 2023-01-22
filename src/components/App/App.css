@@ -1,0 +1,50 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.main__header {
+  font-family: Exo, Arial, Helvetica, sans-serif;
+  font-size: 2.25rem;
+  font-weight: 300;
+  line-height: 1.17;
+  text-align: center;
+  color: white;
+  margin: 0 0 25px;
+  /* support wrap in ie11 */
+  width: 100%;
+}
+
+.main__list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 1120px;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* support wrap in ie11 */
+  width: 100%;
+}
+
+@media screen and (min-width: 1125px) {
+  .main {
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 1124px) {
+  .main__header {
+    margin-top: 5.3vh;
+  }
+}
+
+@media screen and (max-width: 719px) {
+  .main__list {
+    flex-direction: column;
+    width: auto;
+  }
+}

@@ -1,0 +1,217 @@
+.main__list-item {
+  margin: 0 80px 20px 0;
+}
+
+.main__list-item:last-child {
+  margin-right: 0;
+}
+
+.main__card {
+  position: relative;
+  height: 480px;
+  width: 320px;
+  background: linear-gradient(135deg, transparent 30px, #1698d9 0);
+  border-radius: 12px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.main__card_active {
+  background: linear-gradient(135deg, transparent 30px, #d91667 0);
+}
+
+.main__card-disable {
+  position: relative;
+  height: 480px;
+  width: 320px;
+  background: linear-gradient(135deg, transparent 30px, #b3b3b3 0);
+  border-radius: 12px;
+}
+
+.main__card-overlay {
+  position: relative;
+  height: 480px;
+  width: 320px;
+  background: linear-gradient(135deg, transparent 30px, white 0);
+  border-radius: 12px;
+  opacity: 0.4;
+  z-index: 3;
+}
+
+.main__card-inside {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: calc(100% - 8px);
+  width: calc(100% - 8px);
+  top: 4px;
+  left: 4px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, transparent 28px, #f2f2f2 0);
+  z-index: 1;
+}
+
+.main__text-block {
+  margin-left: 51px;
+  max-width: 250px;
+  color: black;
+}
+
+.main__text {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.1875;
+  color: #666;
+  margin: 17px 0 5px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.main__food-name {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.17;
+  margin: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.main__food-type {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.17;
+  margin: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.main__promo-text {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.14;
+  color: #666;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin: 15px 0 0;
+  max-width: fit-content;
+}
+
+.disable {
+  color: #b3b3b3;
+}
+
+.main__img {
+  position: absolute;
+  bottom: -88px;
+  left: -24px;
+  background-size: contain;
+  background-position: center;
+}
+
+.main__circle {
+  position: absolute;
+  z-index: 2;
+  height: 80px;
+  width: 80px;
+  background-color: #1698d9;
+  border-radius: 50%;
+  bottom: 16px;
+  right: 16px;
+}
+
+.main__circle_active {
+  background-color: #d91667;
+}
+
+.main__circle_disable {
+  background-color: #b3b3b3;
+}
+
+.main__circle-number {
+  color: white;
+  font-size: 2.625rem;
+  line-height: 0.52;
+  margin: 20px 10px 0;
+  text-align: center;
+}
+
+.main__circle-text {
+  color: white;
+  font-size: 1.3125rem;
+  margin: 5px 30px;
+}
+
+.main__caption {
+  font-weight: 400;
+  font-size: 0.8125rem;
+  line-height: 1.154;
+  text-align: center;
+  margin: 14px auto 0;
+  color: white;
+  max-width: 320px;
+}
+
+.main__caption_disable {
+  color: #ffff66;
+}
+
+.main__caption-link {
+  position: relative;
+  color: #22a7e9;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  cursor: pointer;
+  transition: transform 0.4s;
+}
+
+.main__caption-link::after {
+  position: absolute;
+  content: "";
+  border-top: 1px dashed #22a7e9;
+  width: 26px;
+  margin-left: 1px;
+  right: 4px;
+  bottom: 0;
+}
+
+.main__card:hover {
+  background: linear-gradient(135deg, transparent 30px, #2ea8e6 0);
+}
+
+.main__card:hover .main__circle {
+  background-color: #2ea8e6;
+}
+
+.main__card_active:hover {
+  background: linear-gradient(135deg, transparent 30px, #e52e7a 0);
+}
+
+.main__card_active:hover .main__circle {
+  background-color: #e52e7a;
+}
+
+.main__card_active:hover .main__text {
+  color: #e62e7a;
+}
+
+.main__caption-link:hover {
+  color: #e52e7a;
+}
+
+@media screen and (max-width: 1040px) {
+  .main__list-item:nth-child(2n) {
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 719px) {
+  .main__list-item {
+    margin: 0 auto 20px;
+  }
+}

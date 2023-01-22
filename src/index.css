@@ -1,0 +1,28 @@
+@import url(./vendor/fonts/fonts.css);
+
+:root {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./images/Pattern.svg);
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+@supports (background-blend-mode: multiply) and (background-attachment: fixed) {
+  body {
+    background-image: url(./images/Pattern.svg),
+      linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.5) 0%,
+        rgba(0, 0, 0, 5e-5) 49.88%,
+        rgba(0, 0, 0, 0.5) 100%
+      );
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+  }
+}
