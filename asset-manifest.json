@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.3e0e49fa.css",
-    "main.js": "/static/js/main.791fc772.js",
-    "static/media/Cat2x.png": "/static/media/Cat2x.6b503fb2d5d4f5ea110b.png",
-    "static/media/Cat.png": "/static/media/Cat.fb532d1d255107b0b1b8.png",
-    "static/media/Exo2.0-Thin.otf": "/static/media/Exo2.0-Thin.51c257bfa8ec3e0cfb4b.otf",
-    "static/media/Pattern.svg": "/static/media/Pattern.1dafcd2d49be28232f03.svg",
-    "index.html": "/index.html",
-    "main.3e0e49fa.css.map": "/static/css/main.3e0e49fa.css.map",
-    "main.791fc772.js.map": "/static/js/main.791fc772.js.map"
+    "main.css": "/cat-store/static/css/main.3d849d8d.css",
+    "main.js": "/cat-store/static/js/main.d30eb781.js",
+    "static/media/Cat2x.png": "/cat-store/static/media/Cat2x.6b503fb2d5d4f5ea110b.png",
+    "static/media/Cat.png": "/cat-store/static/media/Cat.fb532d1d255107b0b1b8.png",
+    "static/media/Exo2.0-Thin.otf": "/cat-store/static/media/Exo2.0-Thin.51c257bfa8ec3e0cfb4b.otf",
+    "static/media/Pattern.svg": "/cat-store/static/media/Pattern.1dafcd2d49be28232f03.svg",
+    "index.html": "/cat-store/index.html",
+    "main.3d849d8d.css.map": "/cat-store/static/css/main.3d849d8d.css.map",
+    "main.d30eb781.js.map": "/cat-store/static/js/main.d30eb781.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e0e49fa.css",
-    "static/js/main.791fc772.js"
+    "static/css/main.3d849d8d.css",
+    "static/js/main.d30eb781.js"
   ]
 }
